@@ -1,5 +1,7 @@
 # React Weather App
 
+[![Build Status](https://travis-ci.org/nicksp/react-geo-weather.svg)](https://travis-ci.org/nicksp/react-geo-weather)
+
 See [project description](https://gist.github.com/nicksp/4a9bddf75de12c37ab6d) for basic requirements.
 
 Try the [deployed app](http://nicksp.github.io/react-geo-weather/) or read below hot to run it locally.
