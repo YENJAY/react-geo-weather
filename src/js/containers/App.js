@@ -60,8 +60,8 @@ export default class App extends Component {
     }.bind(this);
 
     // Does this browser support geolocation?
-    if (navigator.geolocation) {
-      navigator.geolocation.getCurrentPosition(_locationSuccess, _locationError);
+    if (window.navigator.geolocation) {
+      window.navigator.geolocation.getCurrentPosition(_locationSuccess, _locationError);
     } else {
       this.refs['messagePlaceholder'].showError('Your browser does not support Geolocation.');
     }

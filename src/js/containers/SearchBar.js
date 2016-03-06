@@ -34,7 +34,7 @@ class SearchBar extends Component {
   render() {
     return (
       <form onSubmit={this.onFormSubmit} className="input-group">
-        <input type="text" placeholder="Get a 5 day forecast in your favourite cities"
+        <input type="text" placeholder="Enter postcode / city and get a 5 day forecast"
           className="form-control"
           value={this.state.term}
           autoFocus
