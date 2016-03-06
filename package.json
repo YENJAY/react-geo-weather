@@ -1,0 +1,42 @@
+{
+  "name": "react-geo-weather",
+  "description": "Weather forecast app with Geolocation",
+  "version": "0.1.0",
+  "author": "Nick S. Plekhanov <nick.plekhanov@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nicksp/react-geo-weather.git"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline",
+    "build": "SET NODE_ENV=production& NODE_ENV=production& webpack -p",
+    "lint": "eslint src/js/**/*.js"
+  },
+  "devDependencies": {
+    "babel-core": "^6.6.5",
+    "babel-eslint": "^4.1.8",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.6.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "copy-webpack-plugin": "^0.3.3",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^4.2.0",
+    "webpack": "^1.12.14",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "axios": "^0.9.1",
+    "babel-preset-stage-1": "^6.3.13",
+    "lodash": "^4.6.1",
+    "moment": "^2.11.2",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-google-maps": "^4.9.1",
+    "react-redux": "^4.4.0",
+    "redux": "^3.3.1",
+    "redux-promise": "^0.5.1"
+  }
+}

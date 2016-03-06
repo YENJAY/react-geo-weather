@@ -1,0 +1,66 @@
+/* General */
+
+body {
+  background: #fff;
+  font-family:"Helvetica Neue", Arial, sans-serif;
+  color: #111;
+  line-height: 1.5;
+  padding: 20px;
+  font-size: 16px;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.weather__message {
+  color: #e80b0b;
+  text-align: center;
+}
+
+.link {
+  color: #111;
+}
+
+.link:hover {
+  color: #f58720;
+}
+
+.input-group {
+  margin: 20px 0;
+}
+
+/* Table */
+
+td, th {
+  vertical-align: middle !important;
+  text-align: center !important;
+}
+
+td:first-of-type {
+  height: 200px;
+  width: 250px;
+  min-width: 250px;
+}
+
+td.error {
+  height: auto;
+}
+
+/* Header */
+
+.header {
+  margin-bottom: 40px;
+  font-size: 32px;
+}
+
+/* Footer */
+
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 22px;
+  font-size: 12px;
+  opacity: .5;
+}
