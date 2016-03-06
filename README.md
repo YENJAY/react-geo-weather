@@ -1,6 +1,12 @@
 # React Weather App
 
+See [project description](https://gist.github.com/nicksp/4a9bddf75de12c37ab6d) for basic requirements.
+
+Try the [deployed app](http://nicksp.github.io/react-geo-weather/) or read below hot to run it locally.
+
 ## How to run locally
+
+Checkout the repository or download it as a [ZIP file](https://github.com/nicksp/react-geo-weather/archive/master.zip).
 
 ```sh
 $ git clone https://github.com/nicksp/react-geo-weather.git
