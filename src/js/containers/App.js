@@ -7,6 +7,7 @@ import Header from '../components/Header';
 import Footer from '../components/Footer';
 import SearchBar from './SearchBar';
 import WeatherList from './WeatherList';
+import WeatherWidget from './WeatherWidget';
 import MessagePlaceholder from '../components/MessagePlaceholder';
 
 export default class App extends Component {
@@ -35,7 +36,7 @@ export default class App extends Component {
 
       this.setState({ isGeo: true });
       // Fetch weather data
-      this.props.fetchWeather(null, location);
+      this.props.fetchWeather(null, location, true);
     }.bind(this);
 
     /**
@@ -73,7 +74,7 @@ export default class App extends Component {
 
     if (isGeo) {
       componentsToRender = (
-        <WeatherList />
+        <WeatherWidget />
       );
     } else {
       componentsToRender = (

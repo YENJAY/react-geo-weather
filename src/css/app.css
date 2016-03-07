@@ -29,6 +29,68 @@ body {
   margin: 20px 0;
 }
 
+/* Weather Widget */
+
+.weather-widget {
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .25);
+  position: relative;
+  width: 494px;
+  height: 407px;
+  margin: 50px auto 25px;
+  overflow: hidden;
+  text-align: center;
+  background: #dfdfdf;
+  background: linear-gradient(to bottom, #fff 8%, #eaeaea 100%);
+}
+
+.weather-widget__main {
+  background: linear-gradient(to bottom, #2999C1, #A9E8F7);
+  height: 80%;
+}
+
+.weather-widget__main .weather-icon {
+  width: 290px;
+  height: 230px;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.weather-widget__footer {
+  border-top: 1px solid rgba(25, 25, 25, .15);
+  height: 20%;
+}
+
+.weather-widget__location {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 28px;
+  color: #296c81;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.weather-widget__location b {
+  color: #569cb3;
+}
+
+.weather-widget__data {
+  color: #424242;
+  font-size: 24px;
+  font-family: 'Open Sans Condensed', sans-serif;
+  position: relative;
+  bottom: -20px;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+}
+
+.weather-widget__data b {
+  text-transform: uppercase;
+}
+
 /* Table */
 
 td, th {
